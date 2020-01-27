@@ -1,0 +1,32 @@
+{
+    "name": "panic-palette",
+    "displayName": "Panic Palette",
+    "description": "Panics Palette theme for Visual Studio Code",
+    "version": "0.0.2",
+    "publisher": "perragnaredin",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/perragnar/panic-palette-vscode"
+    },
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Dark",
+        "Panic",
+        "Palette",
+        "Nova"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Panic Palette",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Panic Palette-color-theme.json"
+            }
+        ]
+    }
+}
