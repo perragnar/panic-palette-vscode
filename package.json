@@ -3,6 +3,7 @@
     "displayName": "Panic Palette",
     "description": "Panics Palette theme for Visual Studio Code",
     "version": "0.0.2",
+    "preview": true,
     "publisher": "perragnaredin",
     "repository": {
         "type": "git",
@@ -11,6 +12,11 @@
     "engines": {
         "vscode": "^1.41.0"
     },
+    "galleryBanner": {
+        "color": "#141C24",
+        "theme": "dark"
+    },
+    "icon": "images/logo.png",
     "categories": [
         "Themes"
     ],
